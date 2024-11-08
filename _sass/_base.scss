@@ -27,7 +27,7 @@ a {
 	border-right:1px solid white;
 	border-bottom:1px solid white;
 	border-bottom-right-radius:8px;
-	background:#BF1722;
+	background:#add8e6; /* Changed to baby blue */
 	-webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 100;
@@ -40,7 +40,6 @@ a {
 	-webkit-transition: top .1s ease-in;
     transition: top .1s ease-in;
 }
-
 
 /* banner */
 #home-banner-logo { 
@@ -64,11 +63,11 @@ a {
     color: #fff;
     border: solid white 1px;
     background: transparent;
-  }
+}
 
-  #footer-nav .nav-link:hover {
+#footer-nav .nav-link:hover {
     color: white;
-    background: rgba(255,255,255,.10);
+    background: rgba(173, 216, 230, 0.10); /* Changed to baby blue with transparency */
 }
 
 /* scroll to top */
@@ -103,7 +102,6 @@ a {
     } 
 }
 
-
 /* bootstrap icons tweaks */
 .bi { 
     display: inline-block;
@@ -116,3 +114,4 @@ a {
     height: 1em;
     vertical-align: -0.1em;
 }
+
